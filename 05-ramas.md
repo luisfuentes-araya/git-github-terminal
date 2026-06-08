@@ -1,4 +1,17 @@
 # 05 - Ramas en Git
+Ejemplo simple:
+
+    Estás trabajando en tu proyecto.
+
+    Quieres agregar login.
+
+    Creas una rama llamada login.
+
+    Haces todos los cambios ahí.
+
+    Si funciona, la unes con main.
+
+    Si sale mal, no rompiste el proyecto principal.
 
 ## Crear una rama
 
