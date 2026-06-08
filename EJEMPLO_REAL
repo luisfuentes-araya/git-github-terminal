@@ -1,0 +1,35 @@
+# EJEMPLO REAL
+
+## Caso típico
+
+Tengo un proyecto local hecho en mi PC y quiero subirlo a GitHub para guardarlo, compartirlo o seguir trabajándolo desde otro equipo.
+
+## Pasos
+
+```bash
+git init
+git add .
+git commit -m "primer commit"
+git branch -M main
+git remote add origin https://github.com/usuario/repositorio.git
+git push -u origin main
+```
+
+## Qué hace cada línea
+
+- `git init`: crea el repositorio Git en la carpeta actual.
+- `git add .`: agrega todos los archivos al staging.
+- `git commit -m "primer commit"`: guarda una versión del proyecto.
+- `git branch -M main`: deja la rama principal como `main`.
+- `git remote add origin ...`: conecta el proyecto local con GitHub.
+- `git push -u origin main`: sube el proyecto y deja configurada la relación con el remoto.
+
+## Flujo normal después
+
+```bash
+git add .
+git commit -m "nuevo cambio"
+git push
+```
+
+Ese es el ciclo básico cuando ya el proyecto está conectado.
