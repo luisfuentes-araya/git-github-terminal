@@ -13,6 +13,20 @@ git remote add origin URL
 git commit --amend -m "nuevo mensaje"
 ```
 
+
+En palabras simples:
+
+    Modified = cambió, pero aún no lo has preparado.
+
+    Staged = ya está listo para guardarse en el commit.
+
+    Committed = ya quedó guardado como versión.
+
+
+    Staging
+es una zona intermedia antes del commit.
+
+
 ## Quiero deshacer staging
 
 ```bash
